@@ -11,6 +11,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    // 关闭 eslint 的如下功能
     'import/prefer-default-export': 0,
     'no-use-before-define': 0,
     'no-shadow': 0,
@@ -20,8 +21,5 @@ module.exports = {
     'no-sequences': 0,
     'no-loop-func': 0,
     'no-nested-ternary': 0,
-    'no-bitwise': 0,
-    'object-curly-newline': 0,
-    radix: 0,
   },
 };
